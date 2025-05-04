@@ -1,0 +1,34 @@
+
+.section {
+    margin-bottom: 5vw;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+}
+
+.table {
+    margin: 0 auto;
+    font-size: 2vw;
+    display: table;
+}
+
+.row {
+    display: table-row;
+    color: white;
+    transition: 200ms;
+    border: 0px;
+    border-radius: 1vw;
+}
+
+.row:hover {
+    background-color: #333;
+}
+
+.site, .name {
+    display: table-cell;
+    width: 12vw;
+    padding: 0.25vw 1vw;
+    text-align: left;
+}

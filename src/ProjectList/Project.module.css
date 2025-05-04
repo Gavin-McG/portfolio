@@ -1,0 +1,47 @@
+.container {
+    width: 68%;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 2vw;
+    text-align: left;
+}
+
+.container:nth-child(even) {
+    padding-left: 24%;
+    padding-right: 8%;
+}
+
+.container:nth-child(odd) {
+    padding-left: 14%;
+    padding-right: 18%;
+}
+
+.img {
+    aspect-ratio: 1;
+    height: 31vw;
+    /*border-radius: 1vw;*/
+}
+
+.content {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.header {
+    font-size: 2vw;
+    font-weight: normal;
+    margin-top: 0.5vw;
+    margin-bottom: 1vw;
+}
+
+.text {
+    width: 100%;
+    font-size: 1.4vw;
+    margin: 0;
+}
+
+.link {
+    color: darkgrey;
+    font-size: 1.8vw;
+    margin-bottom: 1vw;
+}

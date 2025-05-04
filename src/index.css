@@ -1,0 +1,32 @@
+
+:root {
+    --img-radius: 1vw;
+    --transition-time: 200ms;
+}
+
+.sections {
+    margin-top: 3vw;
+    display: grid;
+}
+
+.section-header {
+    font-size: 3.5vw;
+    font-weight: bold;
+    margin: 5vw 0 2.5vw 0;
+    padding: 0;
+}
+
+.img-container {
+    background-color: #eee;
+    border-radius: var(--img-radius);
+}
+
+#top {
+    position: relative;
+    width: 100%;
+    z-index: 0;
+}
+
+#top * {
+    z-index: 2; /* Appears above canvas */
+}
