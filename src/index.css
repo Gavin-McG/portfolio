@@ -2,6 +2,13 @@
 :root {
     --img-radius: 1vw;
     --transition-time: 200ms;
+
+    --background-color: #171924;
+    --font-color: white;
+    --font-color-secondary: #9bcae5;
+    --outline-color: #8989b0;
+    --hover-color: #000000;
+    --hover-shadow-color: white;
 }
 
 .sections {

@@ -1,6 +1,7 @@
 
 .backdrop {
-    background-color: #333;
+    background-color: #112;
+    box-shadow: #112 0px 0px 12px;
     color: white;
     display: flex;
     justify-content: center;

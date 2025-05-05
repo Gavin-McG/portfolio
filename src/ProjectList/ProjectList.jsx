@@ -25,7 +25,6 @@ function ProjectList() {
       const clampedProgress = Math.min(Math.max(current / total, 0), 1);
 
       setProgress(clampedProgress);
-      console.log(clampedProgress);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -43,6 +42,7 @@ function ProjectList() {
             progress={progress}
           />
         ))}
+        <img className={styles.gear} src="./public/projects/Gear.png" />
       </div>
     </div>
   );
