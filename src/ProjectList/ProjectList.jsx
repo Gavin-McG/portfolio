@@ -1,15 +1,49 @@
-import styles from "./ProjectList.module.css";
+import React, { useRef, useEffect, useState } from "react";
 import Project from "./Project";
+import styles from "./ProjectList.module.css";
+
+const TOTAL_PROJECTS = 4;
 
 function ProjectList() {
+  const containerRef = useRef(null);
+  const stickyRef = useRef(null);
+  const [progress, setProgress] = useState(0); // For animations
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (!containerRef.current || !stickyRef.current) return;
+
+      const containerRect = containerRef.current.getBoundingClientRect();
+      const viewportHeight = window.innerHeight;
+
+      const start = viewportHeight; // when container top reaches top
+      const end = -containerRect.height + viewportHeight; // when container bottom reaches bottom
+
+      // clamp progress from 0 to 1
+      const total = start - end - viewportHeight;
+      const current = start - containerRect.top - viewportHeight;
+      const clampedProgress = Math.min(Math.max(current / total, 0), 1);
+
+      setProgress(clampedProgress);
+      console.log(clampedProgress);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <div className={styles.section} id="Projects">
-        <h1 className={`section-header ${styles.header}`}>Projects</h1>
-        <div className={styles.projects}>
-            <Project></Project>
-            <Project></Project>
-            <Project></Project>
-        </div>
+    <div ref={containerRef} className={styles.container} id="Projects">
+      <div ref={stickyRef} className={styles.stickyContent}>
+        {Array.from({ length: TOTAL_PROJECTS }, (_, index) => (
+          <Project
+            key={index}
+            index={index}
+            total={TOTAL_PROJECTS}
+            progress={progress}
+          />
+        ))}
+      </div>
     </div>
   );
 }

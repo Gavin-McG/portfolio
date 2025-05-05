@@ -5,9 +5,6 @@ import NavBar from '../NavBar/NavBar'
 import Hero from '../Hero/Hero'
 import About from '../About/About'
 import ProjectList from '../ProjectList/ProjectList'
-import DevBlog from '../DevBlog/DevBlog'
-import GameJamList from '../GameJams/GamejamList'
-import Contacts from '../Contacts/Contacts'
 import { StartRender } from '../cube'
 
 function App() {
@@ -20,10 +17,8 @@ function App() {
       <Hero></Hero>
       <div className="sections">
         <About></About>
-        <ProjectList></ProjectList>
-        <DevBlog></DevBlog>
-        {/*<GameJamList></GameJamList>*/}
-        <Contacts></Contacts>
+        <ProjectList onPositionChange={(pos) => console.log("Position:", pos)} />
+        <div style={{height: "200vw"}}></div>
       </div>
     </>
   )
