@@ -1,14 +1,9 @@
 .container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.5vw;
+  transform: translateX(47vw);
   width: 72vw;
-  display: flex;
-  align-items: center;
-  justify-content: left;
-  transition-property: transform, background-color;
-  transition: 0.1s linear;
-  transform-origin: -35vw 50%;
-  position: absolute;
-  top: 30%;
-  border: 2px #fff0 solid;
   border-radius: 1vw;
 }
 
@@ -29,9 +24,6 @@
 .content {
   width: 35vw;
   height: 25vw;
-  position: absolute;
-  transform-origin: 0% 0%;
-  transform: translate(36vw, 0);
   text-align: left;
   display: grid;
   grid-template-rows: auto 1fr auto;
@@ -45,23 +37,15 @@
     font-size: 1.5vw;
 }
 
-.selected {
-    background-color: #4444;
-}
-
-.selected:hover {
-    border: 2px grey solid;
-    box-shadow: var(--hover-shadow-color) 0px 0px 8px;
-    background-color: var(--hover-color);
-}
 
 .skills {
   display: flex;
   gap: 0.5vw;
   flex-wrap: nowrap;
   overflow: hidden;
-  width: 100%;
+  align-items: left;
   flex-direction: row-reverse;
+  padding: 0 1vw 0 0;
 }
 
 .skill {
