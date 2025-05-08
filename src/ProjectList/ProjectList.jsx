@@ -1,9 +1,10 @@
 import React, { useRef, useEffect, useState } from "react";
-import Project from "./Project";
-import styles from "./ProjectList.module.css";
 import Rotation from "./Rotation";
+import Project from "./Project";
+import MoreProjects from "./MoreProjects";
+import styles from "./ProjectList.module.css";
 
-const TOTAL_PROJECTS = 4;
+const TOTAL_PROJECTS = 3;
 
 function ProjectList() {
   const containerRef = useRef(null);
@@ -35,20 +36,23 @@ function ProjectList() {
   return (
     <div ref={containerRef} className={styles.container} id="Projects">
       <div ref={stickyRef} className={styles.stickyContent}>
-        <Rotation key={-1} index={0} total={TOTAL_PROJECTS} progress={progress} can_select={false}>
+        <Rotation key={-1} index={0} total={TOTAL_PROJECTS+1} progress={progress} can_select={false}>
           <img className={styles.gear} src="./public/projects/Gear.png" />
         </Rotation>
         {Array.from({ length: TOTAL_PROJECTS }, (_, index) => (
           <Rotation
             key={index}
             index={index}
-            total={TOTAL_PROJECTS}
+            total={TOTAL_PROJECTS+1}
             progress={progress}
             can_select={true}
           >
             <Project></Project>
           </Rotation>
         ))}
+        <Rotation key={TOTAL_PROJECTS} index={TOTAL_PROJECTS} total={TOTAL_PROJECTS+1} progress={progress} can_select={true}>
+          <MoreProjects></MoreProjects>
+        </Rotation>
       </div>
     </div>
   );

@@ -4,21 +4,20 @@
   gap: 0.5vw;
   transform: translateX(47vw);
   width: 72vw;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   border-radius: 1vw;
 }
 
 .img {
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   width: 35vw;
   height: 25vw;
-  background: #4444;
-  border-radius: 1vw;
 }
 
 .img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 1vw 0vw 0vw 1vw;
 }
 
 .content {
@@ -54,4 +53,3 @@
   border: 2px solid var(--font-color-secondary);
   padding: 0.2vw 0.4vw;
 }
-

@@ -12,8 +12,8 @@
 }
 
 .gear {
-  width: 105vw;
-  height: 105vw;
+  width: 90vw;
+  height: 90vw;
   align-content: center;
   transform: translateX(-50%);
   image-rendering: pixelated;
