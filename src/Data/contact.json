@@ -1,0 +1,9 @@
+{
+  "header": "Get In Touch",
+  "socials": [
+    { "name": "Pnone - 319-359-8195"},
+    { "name": "Email - gavinmcg@umich.edu"},
+    { "name": "LinkedIn - Gavin McGinness", "url": "https://www.linkedin.com/in/gavinmcginness/" },
+    { "name": "GitHub - Gavin-McG", "url": "https://github.com/Gavin-McG" }
+  ]
+}

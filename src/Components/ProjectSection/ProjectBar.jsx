@@ -74,8 +74,8 @@ function ProjectBar({ projects, direction }) {
     <div className={styles.projectBar}>
       <button
         onClick={() => {
-          setSpeed(Math.max(-maxSpeed, Math.min(-baseSpeed-speedUp, speed-speedUp)));
-          setTargetSpeed(-baseSpeed);
+          setSpeed(Math.max(maxSpeed, Math.min(baseSpeed+speedUp, speed+speedUp)));
+          setTargetSpeed(baseSpeed);
         }}
         className={styles.button}
         style={{ translate: "5.2vw " }}
@@ -95,8 +95,8 @@ function ProjectBar({ projects, direction }) {
       </div>
       <button
         onClick={() => {
-          setSpeed(Math.min(maxSpeed, Math.max(baseSpeed+speedUp, speed+speedUp)));
-          setTargetSpeed(baseSpeed);
+          setSpeed(Math.min(-maxSpeed, Math.max(-baseSpeed-speedUp, speed-speedUp)));
+          setTargetSpeed(-baseSpeed);
         }}
         className={styles.button}
         style={{ translate: "-7vw " }}

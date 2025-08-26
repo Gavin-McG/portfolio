@@ -3,34 +3,34 @@
     "header": "WolverineSoft Projects",
     "projects": [
       {
-        "title": "Project One",
-        "description": "A cool first project.",
-        "image": "/images/SotF.png",
-        "link": "/project1"
+        "title": "Soul of the Forest",
+        "description": "Undertale-inspired RPG",
+        "image": "/images/projects/SoulOfTheForest.png",
+        "link": ""
       },
       {
-        "title": "Project Two",
-        "description": "Another creative work.",
-        "image": "/images/SotF.png",
-        "link": "/project2"
+        "title": "Cor Draconis",
+        "description": "Fantasy Town Builder/Dungeoning",
+        "image": "/images/projects/CorDraconis.png",
+        "link": ""
       },
       {
-        "title": "Project Two",
-        "description": "Another creative work.",
-        "image": "/images/SotF.png",
-        "link": "/project2"
+        "title": "Aether Break",
+        "description": "3D speed based platforming",
+        "image": "/images/projects/AetherBreak.png",
+        "link": ""
       },
       {
-        "title": "Project Two",
-        "description": "Another creative work.",
-        "image": "/images/SotF.png",
-        "link": "/project2"
+        "title": "Dialogue System",
+        "description": "Feature-rich Dialogue System backend.",
+        "image": "/images/projects/SotF.png",
+        "link": ""
       },
       {
-        "title": "Project Two",
-        "description": "Another creative work.",
-        "image": "/images/SotF.png",
-        "link": "/project2"
+        "title": "F25 Project",
+        "description": "Current semester project",
+        "image": "/images/projects/SotF.png",
+        "link": ""
       }
     ]
   },
@@ -38,23 +38,76 @@
     "header": "GameJam Projects",
     "projects": [
       {
-        "title": "Project One",
-        "description": "Something unique.",
-        "image": "/images/SotF.png",
-        "link": "/project3"
+        "title": "Pumpkin Pelter",
+        "description": "PvE waves of haunted pumpkins",
+        "image": "/images/projects/PumpkinPelter.png",
+        "link": ""
       },
       {
-        "title": "Project Two",
-        "description": "Another creative work.",
-        "image": "/images/SotF.png",
-        "link": "/project2"
+        "title": "Turkey Tussle",
+        "description": "Competitive Runaway Turkey Jousting",
+        "image": "/images/projects/TurkeyTussle.png",
+        "link": ""
+      },
+      {
+        "title": "Wrong Way!!!",
+        "description": "Frisbee Golf gone south",
+        "image": "/images/projects/WrongWay.png",
+        "link": ""
+      },
+      {
+        "title": "Spring In My Step",
+        "description": "Pogo-Stuck inspired rush to catch the bus",
+        "image": "/images/projects/SpringInMyStep.png",
+        "link": ""
+      },
+      {
+        "title": "The World's Hardest Trip",
+        "description": "Homage to 'The World's Hardest Game'",
+        "image": "/images/projects/TheWorldsHardestTrip.png",
+        "link": ""
       }
     ]
   },
   {
     "header": "Misc Projects",
     "projects": [
-        
+      {
+        "title": "Metroid X Portal",
+        "description": "Merger between two classics",
+        "image": "/images/projects/MetroidXPortal.png",
+        "link": ""
+      },
+      {
+        "title": "Gluten Gunning",
+        "description": "PvP clash of toast technique",
+        "image": "/images/projects/GlutenGunning.png",
+        "link": ""
+      },
+      {
+        "title": "Way of the Cards",
+        "description": "Use magic cards to conquer a Metroidvania slime dungeon",
+        "image": "/images/projects/WayOfTheCards.png",
+        "link": ""
+      },
+      {
+        "title": "Mesh Slicing tool",
+        "description": "Unity tool for slicing meshes along a plane",
+        "image": "",
+        "link": ""
+      },
+      {
+        "title": "Bullet Hole System",
+        "description": "Performance-optimized system for dyanamically drawing decals",
+        "image": "",
+        "link": ""
+      },
+      {
+        "title": "Walking Spider Project",
+        "description": "Procedural IK animation",
+        "image": "",
+        "link": ""
+      }
     ]
   }
 ]

@@ -36,3 +36,13 @@
 .card:hover .overlay {
   transform: translateY(0);
 }
+
+.overlay > h3 {
+    margin: 0;
+    font-size: 2vw;
+}
+
+.overlay > p {
+    margin: 0;
+    font-size: 1.2vw;
+}
