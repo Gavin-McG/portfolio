@@ -1,10 +1,11 @@
 .projectBar {
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 2vw 0;
+  box-shadow: inset black 0px 0px 30px;
+  padding: 1vw 0;
   position: relative;
   display: flex;
   align-items: center;
-  height: 15vw;
+  height: 18vw;
   width: 110vw;           /* 👈 a bit wider than the screen */
   left: -5vw;   
 }
@@ -27,7 +28,13 @@
   background: rgba(0, 0, 0, 0.5);
   color: white;
   border: none;
-  font-size: 1.5rem;
+  font-size: 1vw;
   padding: 1vw 2vw;
   cursor: pointer;
+  transition: 0.2s;
+  border-radius: 1vw;
+}
+
+.button:hover {
+    background-color: rgb(255, 255, 255, 0.3);
 }

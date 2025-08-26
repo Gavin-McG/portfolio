@@ -49,7 +49,7 @@ export function StartRender() {
 
 	// inertia system
 	let momentum = 0;          // accumulated inertia
-	let momentumThreshold = 5; // threshold above which mouse input is ignored
+	let momentumThreshold = 7.5; // threshold above which mouse input is ignored
 	let decay = 0.96;          // exponential decay per frame
 	let spinAxis = { x: 0, y: 0 }; // direction of recent rapid movement
 
@@ -93,8 +93,8 @@ export function StartRender() {
 		mouseY = Math.max(-1, Math.min(1.5, mouseY));
 
 
-		targetRotation.y = mouseX * Math.PI * 0.1;
-		targetRotation.x = mouseY * Math.PI * 0.1;
+		targetRotation.y = mouseX * Math.PI * 0.15;
+		targetRotation.x = mouseY * Math.PI * 0.15;
 	});
 
 	function normalizeAngle(angle) {
@@ -142,8 +142,6 @@ export function StartRender() {
 					spinTime = 3;
 				}
 				if (easeCooldown > 0) easeCooldown -= clock.getDelta();
-
-				console.log(momentum);
 			}
 		}
 

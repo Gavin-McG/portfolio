@@ -1,6 +1,6 @@
 [
   {
-    "header": "Featured Projects",
+    "header": "WolverineSoft",
     "projects": [
       {
         "title": "Project One",
@@ -13,11 +13,29 @@
         "description": "Another creative work.",
         "image": "/images/SotF.png",
         "link": "/project2"
+      },
+      {
+        "title": "Project Two",
+        "description": "Another creative work.",
+        "image": "/images/SotF.png",
+        "link": "/project2"
+      },
+      {
+        "title": "Project Two",
+        "description": "Another creative work.",
+        "image": "/images/SotF.png",
+        "link": "/project2"
+      },
+      {
+        "title": "Project Two",
+        "description": "Another creative work.",
+        "image": "/images/SotF.png",
+        "link": "/project2"
       }
     ]
   },
   {
-    "header": "More Projects",
+    "header": "GameJams",
     "projects": [
       {
         "title": "Project One",
@@ -31,6 +49,12 @@
         "image": "/images/SotF.png",
         "link": "/project2"
       }
+    ]
+  },
+  {
+    "header": "Misc",
+    "projects": [
+        
     ]
   }
 ]

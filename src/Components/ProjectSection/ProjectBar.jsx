@@ -18,12 +18,13 @@ function ProjectBar({ projects, direction }) {
 
   // helper to recalc width
   const recalcCardWidth = () => {
+    console.log("recalc");
     if (containerRef.current) {
       const firstCard = containerRef.current.querySelector(
         `.${styles.cardWrapper}`
       );
       if (firstCard) {
-        setCardWidth(firstCard.offsetWidth + getSpeedInPx(2)); // include gap
+        setCardWidth(firstCard.offsetWidth + getSpeedInPx(1)); // include gap
       }
     }
   };

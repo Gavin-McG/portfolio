@@ -4,7 +4,7 @@ function Hero() {
     return (
         <div className={styles.backdrop} id="top">
             <h1 className={styles.name}>Gavin McGinness</h1>
-            <h2 className={styles.role}>Systems Programmer | Rendering | Shaders</h2>
+            <h2 className={styles.role}>Game Developer | Systems Programmer | Rendering</h2>
         </div>
     );
 }
