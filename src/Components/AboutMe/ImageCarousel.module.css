@@ -1,0 +1,82 @@
+.carousel {
+  position: relative;
+  width: 100%;
+  max-width: 28vw;
+
+  /* square container */
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 2vw;
+}
+
+/* image wrapper stays square */
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover; /* fill square without stretching */
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.active {
+  opacity: 1;
+  z-index: 1;
+}
+
+.inactive {
+  opacity: 0;
+  z-index: 0;
+}
+
+/* nav buttons sit over image */
+.navBtn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.7);
+  border: none;
+  padding: 0.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.left {
+  left: 0.5rem;
+}
+
+.right {
+  right: 0.5rem;
+}
+
+/* dots sit BELOW the image square */
+.dots {
+  position: absolute;
+  bottom: 0.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  z-index: 2;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.activeDot {
+  background: white;
+}

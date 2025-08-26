@@ -1,6 +1,6 @@
 [
   {
-    "header": "WolverineSoft",
+    "header": "WolverineSoft Projects",
     "projects": [
       {
         "title": "Project One",
@@ -35,7 +35,7 @@
     ]
   },
   {
-    "header": "GameJams",
+    "header": "GameJam Projects",
     "projects": [
       {
         "title": "Project One",
@@ -52,7 +52,7 @@
     ]
   },
   {
-    "header": "Misc",
+    "header": "Misc Projects",
     "projects": [
         
     ]
