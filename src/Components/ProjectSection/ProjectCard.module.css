@@ -1,9 +1,9 @@
 .card {
   display: block;
   position: relative;
-  width: 400px;
-  height: 300px;
-  border-radius: 1rem;
+  width: 20vw;
+  height: 15vw;
+  border-radius: 2vw;
   transition: transform 0.3s ease;
   overflow: hidden;
   z-index: 0;

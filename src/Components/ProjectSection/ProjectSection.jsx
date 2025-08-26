@@ -12,7 +12,7 @@ function ProjectSection() {
   }, []);
 
   return (
-    <div className={styles.section}>
+    <div className={styles.section} id="Projects">
       {data.map((bar, idx) => (
         <div key={idx} className={styles.barWrapper}>
           <h2 className={styles.header}>{bar.header}</h2>

@@ -2,7 +2,7 @@ import NavButton from "./NavButton"
 import styles from  "./NavBar.module.css"
 
 function NavBar() {
-    const navItems = ["About", "Projects", "Devblog", "Jams", "Contact"];
+    const navItems = ["About", "Projects", "Devblog", "Contact"];
     
     return (
         <div className={styles.container} id="navbar">
