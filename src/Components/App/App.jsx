@@ -1,11 +1,11 @@
 import { useEffect } from 'react'
-import '../cube'
+import '../../cube'
 import './App.module.css'
 import NavBar from '../NavBar/NavBar'
 import Hero from '../Hero/Hero'
-import { StartRender } from '../cube'
+import { StartRender } from '../../cube'
+import ProjectSection from '../ProjectSection/ProjectSection'
 
-import Test from '../Test/Test'
 
 function App() {
 
@@ -15,7 +15,7 @@ function App() {
     <>
       <NavBar></NavBar>
       <Hero></Hero>
-      <Test></Test>
+      <ProjectSection></ProjectSection>
     </>
   )
 }

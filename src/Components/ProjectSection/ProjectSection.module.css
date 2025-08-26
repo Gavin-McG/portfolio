@@ -1,0 +1,14 @@
+.section {
+  display: flex;
+  flex-direction: column;
+}
+
+.barWrapper {
+  transform: rotate(-3deg);
+}
+
+.header {
+  text-align: left;
+  font-size: 4rem;
+  margin: 10px 5%;
+}
