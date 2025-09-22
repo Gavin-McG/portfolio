@@ -18,7 +18,7 @@
       "date": "2024-10-27",
       "project": "F24",
       "header": "F24 Post 2",
-      "description": "Onboarding, Genre/Game Selection, Genre Research, and Building System",
+      "description": "Building System Tweaks, Camera Controls, environmental objects, and Pathfinding",
       "link": "/devlog/F24/post-2" 
     },
     {
@@ -26,7 +26,7 @@
       "date": "2024-11-10",
       "project": "F24",
       "header": "F24 Post 3",
-      "description": "Onboarding, Genre/Game Selection, Genre Research, and Building System",
+      "description": "Questing System, Many new UI's, Town Ranges, and playtesting",
       "link": "/devlog/F24/post-3" 
     },
     {
@@ -34,7 +34,7 @@
       "date": "2024-11-24",
       "project": "F24",
       "header": "F24 Post 4",
-      "description": "Onboarding, Genre/Game Selection, Genre Research, and Building System",
+      "description": "Quest System UI Finalized",
       "link": "/devlog/F24/post-4" 
     },
     {
@@ -42,8 +42,59 @@
       "date": "2024-12-08",
       "project": "F24",
       "header": "F24 Post 5",
-      "description": "Onboarding, Genre/Game Selection, Genre Research, and Building System",
+      "description": "Clouds, Sounds, and Finishing Touches",
       "link": "/devlog/F24/post-5" 
+    },
+
+
+
+
+    {"image": "/portfolio/images/devlog-thumbnails/W25/post-1.png",
+      "date": "2025-02-09",
+      "project": "W25",
+      "header": "W25 Post 1",
+      "description": "Onboarding, Interfaces, and Contractor Systems",
+      "link": "/devlog/W25/post-1" 
+    },
+    {
+      "image": "/portfolio/images/devlog-thumbnails/W25/post-2.png",
+      "date": "2025-02-23",
+      "project": "W25",
+      "header": "W25 Post 2",
+      "description": "Squash and Stretch iteractions, World map redesign, and Main Tower UI",
+      "link": "/devlog/W25/post-2" 
+    },
+    {
+      "image": "/portfolio/images/devlog-thumbnails/W25/post-3.png",
+      "date": "2025-03-09",
+      "project": "W25",
+      "header": "W25 Post 3",
+      "description": "Contractor UI, tooltips, and upgrades",
+      "link": "/devlog/W25/post-3" 
+    },
+    {
+      "image": "/portfolio/images/devlog-thumbnails/W25/post-4.jpg",
+      "date": "2025-03-23",
+      "project": "W25",
+      "header": "W25 Post 4",
+      "description": "Building Upgrades, more tooltips, and GDC",
+      "link": "/devlog/W25/post-4" 
+    },
+    {
+      "image": "/portfolio/images/devlog-thumbnails/W25/post-5.png",
+      "date": "2025-04-06",
+      "project": "W25",
+      "header": "W25 Post 5",
+      "description": "Tile rules, finishing contractor, VFX graph, and Tutorials",
+      "link": "/devlog/W25/post-5" 
+    },
+    {
+      "image": "/portfolio/images/devlog-thumbnails/W25/post-6.png",
+      "date": "2025-04-20",
+      "project": "W25",
+      "header": "W25 Post 6",
+      "description": "Bug fixes, Bug Fixes, and Bug Fixes",
+      "link": "/devlog/W25/post-6" 
     }
   ]
 }
