@@ -6,31 +6,31 @@
         "title": "Soul of the Forest",
         "description": "Undertale-inspired RPG",
         "image": "/portfolio/images/projects/SoulOfTheForest.png",
-        "link": ""
+        "link": "https://wolverinesoft-studio.itch.io/soul-of-the-forest"
       },
       {
         "title": "Cor Draconis",
         "description": "Fantasy Town Builder/Dungeoning",
         "image": "/portfolio/images/projects/CorDraconis.png",
-        "link": ""
+        "link": "https://wolverinesoft-studio.itch.io/cor-draconis"
       },
       {
         "title": "Aether Break",
         "description": "3D speed based platforming",
         "image": "/portfolio/images/projects/AetherBreak.png",
-        "link": ""
+        "link": "https://wolverinesoft-studio.itch.io/aetherbreak"
       },
       {
         "title": "Dialogue System",
         "description": "Feature-rich Dialogue System backend.",
         "image": "/portfolio/images/projects/SotF.png",
-        "link": ""
+        "link": "https://github.com/Gavin-McG/DialogueSystem"
       },
       {
         "title": "F25 Project",
         "description": "Current semester project",
         "image": "/portfolio/images/projects/SotF.png",
-        "link": ""
+        "link": "https://github.com/Gavin-McG/SaveSystem"
       }
     ]
   },
@@ -41,31 +41,31 @@
         "title": "Pumpkin Pelter",
         "description": "PvE waves of haunted pumpkins",
         "image": "/portfolio/images/projects/PumpkinPelter.png",
-        "link": ""
+        "link": "https://gavinmcg.itch.io/pumpkin-pelter"
       },
       {
         "title": "Turkey Tussle",
         "description": "Competitive Runaway Turkey Jousting",
         "image": "/portfolio/images/projects/TurkeyTussle.png",
-        "link": ""
+        "link": "https://gavinmcg.itch.io/turkey-tussle"
       },
       {
         "title": "Wrong Way!!!",
         "description": "Frisbee Golf gone south",
         "image": "/portfolio/images/projects/WrongWay.png",
-        "link": ""
+        "link": "https://gavinmcg.itch.io/wrong-way"
       },
       {
         "title": "Spring In My Step",
         "description": "Pogo-Stuck inspired rush to catch the bus",
         "image": "/portfolio/images/projects/SpringInMyStep.png",
-        "link": ""
+        "link": "https://gavinmcg.itch.io/spring-in-my-step"
       },
       {
         "title": "The World's Hardest Trip",
         "description": "Homage to 'The World's Hardest Game'",
         "image": "/portfolio/images/projects/TheWorldsHardestTrip.png",
-        "link": ""
+        "link": "https://gavinmcg.itch.io/the-worlds-hardest-trip"
       }
     ]
   },
@@ -94,7 +94,7 @@
         "title": "Mesh Slicing tool",
         "description": "Unity tool for slicing meshes along a plane",
         "image": "",
-        "link": ""
+        "link": "https://github.com/Gavin-McG/Mesh-Slicing"
       },
       {
         "title": "Bullet Hole System",
