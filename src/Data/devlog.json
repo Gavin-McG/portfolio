@@ -6,7 +6,7 @@
   },
   "entries": [
     {
-      "image": "/images/log1.png",
+      "image": "/portfolio/images/devlog-thumbnails/F24/post-1.png",
       "date": "2024-10-13",
       "project": "F24",
       "header": "F24 Post 1",
@@ -14,7 +14,7 @@
       "link": "/devlog/F24/post-1" 
     },
     {
-      "image": "/images/log1.png",
+      "image": "/portfolio/images/devlog-thumbnails/F24/post-2.png",
       "date": "2024-10-27",
       "project": "F24",
       "header": "F24 Post 2",
@@ -22,7 +22,7 @@
       "link": "/devlog/F24/post-2" 
     },
     {
-      "image": "/images/log1.png",
+      "image": "/portfolio/images/devlog-thumbnails/F24/post-3.png",
       "date": "2024-11-10",
       "project": "F24",
       "header": "F24 Post 3",
@@ -30,7 +30,7 @@
       "link": "/devlog/F24/post-3" 
     },
     {
-      "image": "/images/log1.png",
+      "image": "/portfolio/images/devlog-thumbnails/F24/post-4.png",
       "date": "2024-11-24",
       "project": "F24",
       "header": "F24 Post 4",
@@ -38,7 +38,7 @@
       "link": "/devlog/F24/post-4" 
     },
     {
-      "image": "/images/log1.png",
+      "image": "/portfolio/images/devlog-thumbnails/F24/post-5.png",
       "date": "2024-12-08",
       "project": "F24",
       "header": "F24 Post 5",

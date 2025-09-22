@@ -5,31 +5,31 @@
       {
         "title": "Soul of the Forest",
         "description": "Undertale-inspired RPG",
-        "image": "/portfolio//images/projects/SoulOfTheForest.png",
+        "image": "/portfolio/images/projects/SoulOfTheForest.png",
         "link": ""
       },
       {
         "title": "Cor Draconis",
         "description": "Fantasy Town Builder/Dungeoning",
-        "image": "/portfolio//images/projects/CorDraconis.png",
+        "image": "/portfolio/images/projects/CorDraconis.png",
         "link": ""
       },
       {
         "title": "Aether Break",
         "description": "3D speed based platforming",
-        "image": "/portfolio//images/projects/AetherBreak.png",
+        "image": "/portfolio/images/projects/AetherBreak.png",
         "link": ""
       },
       {
         "title": "Dialogue System",
         "description": "Feature-rich Dialogue System backend.",
-        "image": "/portfolio//images/projects/SotF.png",
+        "image": "/portfolio/images/projects/SotF.png",
         "link": ""
       },
       {
         "title": "F25 Project",
         "description": "Current semester project",
-        "image": "/portfolio//images/projects/SotF.png",
+        "image": "/portfolio/images/projects/SotF.png",
         "link": ""
       }
     ]
@@ -40,31 +40,31 @@
       {
         "title": "Pumpkin Pelter",
         "description": "PvE waves of haunted pumpkins",
-        "image": "/portfolio//images/projects/PumpkinPelter.png",
+        "image": "/portfolio/images/projects/PumpkinPelter.png",
         "link": ""
       },
       {
         "title": "Turkey Tussle",
         "description": "Competitive Runaway Turkey Jousting",
-        "image": "/portfolio//images/projects/TurkeyTussle.png",
+        "image": "/portfolio/images/projects/TurkeyTussle.png",
         "link": ""
       },
       {
         "title": "Wrong Way!!!",
         "description": "Frisbee Golf gone south",
-        "image": "/portfolio//images/projects/WrongWay.png",
+        "image": "/portfolio/images/projects/WrongWay.png",
         "link": ""
       },
       {
         "title": "Spring In My Step",
         "description": "Pogo-Stuck inspired rush to catch the bus",
-        "image": "/portfolio//images/projects/SpringInMyStep.png",
+        "image": "/portfolio/images/projects/SpringInMyStep.png",
         "link": ""
       },
       {
         "title": "The World's Hardest Trip",
         "description": "Homage to 'The World's Hardest Game'",
-        "image": "/portfolio//images/projects/TheWorldsHardestTrip.png",
+        "image": "/portfolio/images/projects/TheWorldsHardestTrip.png",
         "link": ""
       }
     ]
@@ -75,19 +75,19 @@
       {
         "title": "Metroid X Portal",
         "description": "Merger between two classics",
-        "image": "/portfolio//images/projects/MetroidXPortal.png",
+        "image": "/portfolio/images/projects/MetroidXPortal.png",
         "link": ""
       },
       {
         "title": "Gluten Gunning",
         "description": "PvP clash of toast technique",
-        "image": "/portfolio//images/projects/GlutenGunning.png",
+        "image": "/portfolio/images/projects/GlutenGunning.png",
         "link": ""
       },
       {
         "title": "Way of the Cards",
         "description": "Use magic cards to conquer a Metroidvania slime dungeon",
-        "image": "/portfolio//images/projects/WayOfTheCards.png",
+        "image": "/portfolio/images/projects/WayOfTheCards.png",
         "link": ""
       },
       {
