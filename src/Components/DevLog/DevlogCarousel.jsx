@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import DevlogData from "../../Data/devlog.json"; // ✅ direct import
+import DevlogData from "../../Data/devlog.json";
 import styles from "./DevlogCarousel.module.css";
 
 function DevlogCard({ entry, color }) {
@@ -23,16 +23,18 @@ function DevlogCard({ entry, color }) {
 }
 
 export default function DevlogCarousel() {
-  const { entries, projects } = DevlogData; // ✅ destructure from imported JSON
+  const { entries, projects } = DevlogData;
+  const reversedEntries = [...entries].reverse();
+
   const [page, setPage] = useState(0);
 
   const logsPerPage = 3;
-  const totalPages = Math.ceil(entries.length / logsPerPage);
+  const totalPages = Math.ceil(reversedEntries.length / logsPerPage);
 
   const handleNext = () => setPage((p) => (p + 1) % totalPages);
   const handlePrev = () => setPage((p) => (p - 1 + totalPages) % totalPages);
 
-  const currentLogs = entries.slice(
+  const currentLogs = reversedEntries.slice(
     page * logsPerPage,
     page * logsPerPage + logsPerPage
   );
