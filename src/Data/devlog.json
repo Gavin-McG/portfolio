@@ -7,11 +7,43 @@
   "entries": [
     {
       "image": "/images/log1.png",
-      "date": "2025-08-20",
+      "date": "2024-10-13",
       "project": "F24",
       "header": "F24 Post 1",
       "description": "Onboarding, Genre/Game Selection, Genre Research, and Building System",
       "link": "/devlog/F24/post-1" 
+    },
+    {
+      "image": "/images/log1.png",
+      "date": "2024-10-27",
+      "project": "F24",
+      "header": "F24 Post 2",
+      "description": "Onboarding, Genre/Game Selection, Genre Research, and Building System",
+      "link": "/devlog/F24/post-2" 
+    },
+    {
+      "image": "/images/log1.png",
+      "date": "2024-11-10",
+      "project": "F24",
+      "header": "F24 Post 3",
+      "description": "Onboarding, Genre/Game Selection, Genre Research, and Building System",
+      "link": "/devlog/F24/post-3" 
+    },
+    {
+      "image": "/images/log1.png",
+      "date": "2024-11-24",
+      "project": "F24",
+      "header": "F24 Post 4",
+      "description": "Onboarding, Genre/Game Selection, Genre Research, and Building System",
+      "link": "/devlog/F24/post-4" 
+    },
+    {
+      "image": "/images/log1.png",
+      "date": "2024-12-08",
+      "project": "F24",
+      "header": "F24 Post 5",
+      "description": "Onboarding, Genre/Game Selection, Genre Research, and Building System",
+      "link": "/devlog/F24/post-5" 
     }
   ]
 }
