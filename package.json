@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Gavin-McG.github.io/portfolio",
+  "homepage": "https://gavin-mcg.github.io/portfolio",
   "name": "my-minimal-react-app",
   "private": true,
   "version": "0.0.0",
@@ -14,10 +14,12 @@
   },
   "dependencies": {
     "emailjs-com": "^3.2.0",
+    "framer-motion": "^12.23.12",
     "lucide-react": "^0.542.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "three": "^0.174.0"
+    "three": "^0.174.0",
+    "vite-plugin-mpa-plus": "^0.6.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
@@ -29,6 +31,7 @@
     "eslint-plugin-react-refresh": "^0.4.19",
     "gh-pages": "^6.3.0",
     "globals": "^15.15.0",
-    "vite": "^6.2.2"
+    "vite": "^6.2.2",
+    "vite-plugin-mpa": "^1.2.0"
   }
 }

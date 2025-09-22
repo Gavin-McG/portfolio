@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "F24": "#00cc00",
+    "W25": "#33aaff",
+    "F25": "#66ff99"
+  },
+  "entries": [
+    {
+      "image": "/images/log1.png",
+      "date": "2025-08-20",
+      "project": "F24",
+      "header": "F24 Post 1",
+      "description": "Onboarding, Genre/Game Selection, Genre Research, and Building System",
+      "link": "/devlogs/log1" 
+    }
+  ]
+}

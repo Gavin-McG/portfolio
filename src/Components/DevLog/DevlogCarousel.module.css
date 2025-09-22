@@ -1,0 +1,96 @@
+.carousel {
+  width: 100%;
+  text-align: center;
+}
+
+.logRow {
+  display: flex;
+  justify-content: center;
+  gap: 1vw;
+  background-color: rgb(0,0,0,0.5);
+  border-radius: 1vw;
+  width: 62vw;
+  margin: 0 19vw;
+  padding: 1vw 0;
+}
+
+.card {
+  background: var(--card-bg, #1e1e1e);
+  color: var(--font-color, #fff);
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 18vw;
+  text-align: left;
+  text-decoration: none;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.image {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  display: block;
+  border-radius: 0.5rem;
+}
+
+.meta {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+
+.date {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.project {
+  font-size: 0.8rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.5rem;
+  color: #000;
+}
+
+.header {
+  margin: 0.5rem 0;
+}
+
+.description {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.navButton {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.dots {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: gray;
+  cursor: pointer;
+}
+
+.activeDot {
+  background: white;
+}

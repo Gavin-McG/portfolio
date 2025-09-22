@@ -12,7 +12,7 @@
 .card:hover {
   transform: scale(1.05);
   z-index: 10;
-  box-shadow: rgb(175, 175, 255) 0px 0px 15px;
+  box-shadow: var(--outline-color) 0px 0px 15px;
 }
 
 .image {

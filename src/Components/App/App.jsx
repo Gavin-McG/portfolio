@@ -6,6 +6,7 @@ import NavBar from '../NavBar/NavBar'
 import Hero from '../Hero/Hero'
 import AboutMe from '../AboutMe/AboutMe'
 import ProjectSection from '../ProjectSection/ProjectSection'
+import DevlogCarousel from '../DevLog/DevlogCarousel'
 import ContactSection from '../Contacts/ContactSection'
 import { Contact } from 'lucide-react'
 
@@ -20,6 +21,7 @@ function App() {
       <Hero></Hero>
       <AboutMe></AboutMe>
       <ProjectSection></ProjectSection>
+      <DevlogCarousel></DevlogCarousel>
       <ContactSection></ContactSection>
     </>
   )

@@ -4,11 +4,11 @@
     "description": "I’m a Computer Science student Attending the University of Michigan. I pride myself in the ability and passion to learn new and chellenging skills. I have a particular interest in Game development and have been a member of WolverineSoft studio for going on 2 years. Within the scope of game development I am skilled in system devlopment, rendering, and Tools development."
   },
   "images": [
-    "/images/AboutMe/Image1.png",
-    "/images/AboutMe/Image2.jpg",
-    "/images/AboutMe/Image3.png",
-    "/images/AboutMe/Image4.png",
-    "/images/AboutMe/Image5.jpg",
-    "/images/AboutMe/Image6.jpg"
+    "/portfolio//images/AboutMe/Image1.png",
+    "/portfolio//images/AboutMe/Image2.jpg",
+    "/portfolio//images/AboutMe/Image3.png",
+    "/portfolio//images/AboutMe/Image4.png",
+    "/portfolio//images/AboutMe/Image5.jpg",
+    "/portfolio//images/AboutMe/Image6.jpg"
   ]
 }

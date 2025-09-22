@@ -63,7 +63,7 @@ export function StartRender() {
 	// Load OBJ model
 	const loader = new OBJLoader();
 	loader.load(
-		'/assets/monkey.obj',
+		`assets/monkey.obj`,
 		(object) => {
 			object.traverse((child) => {
 				if (child instanceof THREE.Mesh) {
