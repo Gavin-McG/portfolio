@@ -21,15 +21,15 @@
         "link": "https://wolverinesoft-studio.itch.io/aetherbreak"
       },
       {
-        "title": "Dialogue System",
-        "description": "Feature-rich Dialogue System backend.",
-        "image": "/portfolio/images/projects/SotF.png",
+        "title": "Unity Dialogue System",
+        "description": "Feature-rich Dialogue System backend",
+        "image": "/portfolio/images/projects/DialogueSystem.png",
         "link": "https://github.com/Gavin-McG/DialogueSystem"
       },
       {
-        "title": "F25 Project",
-        "description": "Current semester project",
-        "image": "/portfolio/images/projects/SotF.png",
+        "title": "Unity Save System",
+        "description": "Easy to implement save system",
+        "image": "/portfolio/images/projects/SaveSystem.png",
         "link": "https://github.com/Gavin-McG/SaveSystem"
       }
     ]
@@ -88,12 +88,12 @@
         "title": "Way of the Cards",
         "description": "Use magic cards to conquer a Metroidvania slime dungeon",
         "image": "/portfolio/images/projects/WayOfTheCards.png",
-        "link": ""
+        "link": "https://manngup.itch.io/way-of-the-cards"
       },
       {
         "title": "Mesh Slicing tool",
         "description": "Unity tool for slicing meshes along a plane",
-        "image": "",
+        "image": "/portfolio/images/projects/MeshSlicing.png",
         "link": "https://github.com/Gavin-McG/Mesh-Slicing"
       },
       {
