@@ -76,13 +76,13 @@
         "title": "Metroid X Portal",
         "description": "Merger between two classics",
         "image": "/portfolio/images/projects/MetroidXPortal.png",
-        "link": ""
+        "link": "https://gavin-mcg.github.io/Posts/EECS494/project1/post.html"
       },
       {
         "title": "Gluten Gunning",
         "description": "PvP clash of toast technique",
         "image": "/portfolio/images/projects/GlutenGunning.png",
-        "link": ""
+        "link": "https://gavin-mcg.github.io/Posts/EECS494/project2/post.html"
       },
       {
         "title": "Way of the Cards",
@@ -97,16 +97,10 @@
         "link": "https://github.com/Gavin-McG/Mesh-Slicing"
       },
       {
-        "title": "Bullet Hole System",
-        "description": "Performance-optimized system for dyanamically drawing decals",
-        "image": "",
-        "link": ""
-      },
-      {
         "title": "Walking Spider Project",
         "description": "Procedural IK animation",
-        "image": "",
-        "link": ""
+        "image": "/portfolio/images/projects/WalkingSpider.png",
+        "link": "https://github.com/Gavin-McG/UnityWallkingSpider"
       }
     ]
   }
