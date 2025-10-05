@@ -40,7 +40,7 @@ export default function DevlogCarousel() {
   );
 
   return (
-    <div className={styles.carousel}>
+    <div className={styles.carousel} id="Devblog">
       <AnimatePresence mode="wait">
         <motion.div
           key={page}
