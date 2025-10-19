@@ -96,6 +96,10 @@
       "description": "Bug fixes, Bug Fixes, and Bug Fixes",
       "link": "/devlog/W25/post-6" 
     },
+
+
+
+
     {
       "image": "/portfolio/images/devlog-thumbnails/F25/post-1.png",
       "date": "2025-10-03",
@@ -103,6 +107,14 @@
       "header": "F25 Post 1",
       "description": "Player Controller, Wall Dithering, Scene Layout",
       "link": "/devlog/F25/post-1" 
+    },
+    {
+      "image": "/portfolio/images/devlog-thumbnails/F25/post-2.png",
+      "date": "2025-10-19",
+      "project": "F25",
+      "header": "F25 Post 2",
+      "description": "Task System",
+      "link": "/devlog/F25/post-2" 
     }
   ]
 }
