@@ -66,6 +66,12 @@
         "description": "Homage to 'The World's Hardest Game'",
         "image": "/portfolio/images/projects/TheWorldsHardestTrip.png",
         "link": "https://gavinmcg.itch.io/the-worlds-hardest-trip"
+      },
+      {
+        "title": "Booze Bash",
+        "description": "Chaotic 1 on 1 brawl",
+        "image": "/portfolio/images/projects/BoozeBust.png",
+        "link": "https://gavinmcg.itch.io/booze-bash"
       }
     ]
   },
@@ -101,6 +107,12 @@
         "description": "Procedural IK animation",
         "image": "/portfolio/images/projects/WalkingSpider.png",
         "link": "https://github.com/Gavin-McG/UnityWallkingSpider"
+      },
+      {
+        "title": "PNG Encoder/Decoder",
+        "description": "Encoder and Decoder for png images, made using cpp STL only",
+        "image": "/portfolio/images/projects/pngEncoder.png",
+        "link": "https://github.com/Gavin-McG/pngEncoder"
       }
     ]
   }
