@@ -115,6 +115,14 @@
       "header": "F25 Post 2",
       "description": "Task System",
       "link": "/devlog/F25/post-2" 
+    },
+    {
+      "image": "/portfolio/images/devlog-thumbnails/F25/post-3.png",
+      "date": "2025-11-02",
+      "project": "F25",
+      "header": "F25 Post 3",
+      "description": "Dialogue System Integration",
+      "link": "/devlog/F25/post-3" 
     }
   ]
 }
