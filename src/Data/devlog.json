@@ -123,6 +123,14 @@
       "header": "F25 Post 3",
       "description": "Dialogue System Integration",
       "link": "/devlog/F25/post-3" 
+    },
+    {
+      "image": "/portfolio/images/devlog-thumbnails/F25/post-4.png",
+      "date": "2025-11-16",
+      "project": "F25",
+      "header": "F25 Post 4",
+      "description": "More Interations",
+      "link": "/devlog/F25/post-4" 
     }
   ]
 }
