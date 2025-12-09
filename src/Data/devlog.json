@@ -131,6 +131,22 @@
       "header": "F25 Post 4",
       "description": "More Interations",
       "link": "/devlog/F25/post-4" 
+    },
+    {
+      "image": "/portfolio/images/devlog-thumbnails/F25/post-5.png",
+      "date": "2025-11-30",
+      "project": "F25",
+      "header": "F25 Post 5",
+      "description": "Rhythm System + Deliverables",
+      "link": "/devlog/F25/post-5" 
+    },
+    {
+      "image": "/portfolio/images/devlog-thumbnails/F25/post-6.png",
+      "date": "2025-12-09",
+      "project": "F25",
+      "header": "F25 Post 6",
+      "description": "Completed Demo Level",
+      "link": "/devlog/F25/post-6" 
     }
   ]
 }
