@@ -3,6 +3,12 @@
   flex-direction: column;
 }
 
+@media (max-width: 768px) {
+  .section {
+    overflow-x: hidden;
+  }
+}
+
 .barWrapper {
   transform: rotate(-3deg);
 }

@@ -1,0 +1,57 @@
+.featuredProject {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  padding: 1vw;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 1vw;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 45vw;
+  margin: 3vw 0 1vw 6vw;
+}
+
+.featuredProject:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.thumbnail {
+  width: 15vw;
+  height: 10vw;
+  object-fit: cover;
+  border-radius: 0.5vw;
+}
+
+.text {
+  flex: 1;
+  padding-left: 0;
+}
+
+.text h3 {
+  margin: 0;
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+.text p {
+  margin: 0;
+  font-size: 1vw;
+  line-height: 1.4;
+}
+
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5vw;
+  margin-top: 1vw;
+}
+
+.techBox {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 0.3vw 0.8vw;
+  border-radius: 0.5vw;
+  font-size: 0.8vw;
+  font-weight: 500;
+}
