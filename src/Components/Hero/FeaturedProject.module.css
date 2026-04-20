@@ -8,8 +8,8 @@
   text-decoration: none;
   color: inherit;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  max-width: 45vw;
-  margin: 3vw 0 1vw 6vw;
+  max-width: 35vw;
+  margin: 3vw 0 1vw 8vw;
 }
 
 .featuredProject:hover {
@@ -18,8 +18,8 @@
 }
 
 .thumbnail {
-  width: 15vw;
-  height: 10vw;
+  width: 12vw;
+  height: 8vw;
   object-fit: cover;
   border-radius: 0.5vw;
 }
@@ -31,27 +31,27 @@
 
 .text h3 {
   margin: 0;
-  font-size: 1.5vw;
+  font-size: 1vw;
   font-weight: bold;
 }
 
 .text p {
   margin: 0;
-  font-size: 1vw;
+  font-size: 0.8vw;
   line-height: 1.4;
 }
 
 .technologies {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5vw;
-  margin-top: 1vw;
+  gap: 0.2vw;
+  margin-top: 0.5vw;
 }
 
 .techBox {
   background-color: rgba(255, 255, 255, 0.2);
-  padding: 0.3vw 0.8vw;
+  padding: 0.2vw 0.3vw;
   border-radius: 0.5vw;
-  font-size: 0.8vw;
+  font-size: 0.7vw;
   font-weight: 500;
 }

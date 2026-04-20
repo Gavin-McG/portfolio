@@ -3,5 +3,5 @@
   "description": "Implementation of advanced shader support into custom game engine, including compute shaders and GPU buffer management.",
   "link": "https://youtu.be/qTYVMgmfGE8?si=iVMlX7y0hEfwRc8P",
   "thumbnail": "/portfolio/images/projects/EngineFeature.png",
-  "technologies": ["C++", "rapidjson","lua", "luaBridge", "GLM", "SDL3", "Box2D", "HLSL", "SPIRV-Cross", "dxCompiler", "CLI11"]
+  "technologies": ["C++", "rapidjson","lua", "luaBridge", "GLM", "SDL3", "SDL3_GPU", "Box2D", "HLSL", "SPIRV-Cross", "dxCompiler", "CLI11"]
 }
