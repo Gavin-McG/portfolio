@@ -5,31 +5,31 @@
       {
         "title": "Soul of the Forest",
         "description": "Undertale-inspired RPG",
-        "image": "/portfolio/images/projects/SoulOfTheForest.png",
+        "image": "/images/projects/SoulOfTheForest.png",
         "link": "https://wolverinesoft-studio.itch.io/soul-of-the-forest"
       },
       {
         "title": "Cor Draconis",
         "description": "Fantasy Town Builder/Dungeoning",
-        "image": "/portfolio/images/projects/CorDraconis.png",
+        "image": "/images/projects/CorDraconis.png",
         "link": "https://wolverinesoft-studio.itch.io/cor-draconis"
       },
       {
         "title": "Aether Break",
         "description": "3D speed based platforming",
-        "image": "/portfolio/images/projects/AetherBreak.png",
+        "image": "/images/projects/AetherBreak.png",
         "link": "https://wolverinesoft-studio.itch.io/aetherbreak"
       },
       {
         "title": "Unity Dialogue System",
         "description": "Feature-rich Dialogue System backend",
-        "image": "/portfolio/images/projects/DialogueSystem.png",
+        "image": "/images/projects/DialogueSystem.png",
         "link": "https://github.com/Gavin-McG/DialogueSystem"
       },
       {
         "title": "Unity Save System",
         "description": "Easy to implement save system",
-        "image": "/portfolio/images/projects/SaveSystem.png",
+        "image": "/images/projects/SaveSystem.png",
         "link": "https://github.com/Gavin-McG/SaveSystem"
       }
     ]
@@ -40,37 +40,37 @@
       {
         "title": "Pumpkin Pelter",
         "description": "PvE waves of haunted pumpkins",
-        "image": "/portfolio/images/projects/PumpkinPelter.png",
+        "image": "/images/projects/PumpkinPelter.png",
         "link": "https://gavinmcg.itch.io/pumpkin-pelter"
       },
       {
         "title": "Turkey Tussle",
         "description": "Competitive Runaway Turkey Jousting",
-        "image": "/portfolio/images/projects/TurkeyTussle.png",
+        "image": "/images/projects/TurkeyTussle.png",
         "link": "https://gavinmcg.itch.io/turkey-tussle"
       },
       {
         "title": "Wrong Way!!!",
         "description": "Frisbee Golf gone south",
-        "image": "/portfolio/images/projects/WrongWay.png",
+        "image": "/images/projects/WrongWay.png",
         "link": "https://gavinmcg.itch.io/wrong-way"
       },
       {
         "title": "Spring In My Step",
         "description": "Pogo-Stuck inspired rush to catch the bus",
-        "image": "/portfolio/images/projects/SpringInMyStep.png",
+        "image": "/images/projects/SpringInMyStep.png",
         "link": "https://gavinmcg.itch.io/spring-in-my-step"
       },
       {
         "title": "The World's Hardest Trip",
         "description": "Homage to 'The World's Hardest Game'",
-        "image": "/portfolio/images/projects/TheWorldsHardestTrip.png",
+        "image": "/images/projects/TheWorldsHardestTrip.png",
         "link": "https://gavinmcg.itch.io/the-worlds-hardest-trip"
       },
       {
         "title": "Booze Bash",
         "description": "Chaotic 1 on 1 brawl",
-        "image": "/portfolio/images/projects/BoozeBust.png",
+        "image": "/images/projects/BoozeBust.png",
         "link": "https://gavinmcg.itch.io/booze-bash"
       }
     ]
@@ -81,37 +81,37 @@
       {
         "title": "Metroid X Portal",
         "description": "Merger between two classics",
-        "image": "/portfolio/images/projects/MetroidXPortal.png",
+        "image": "/images/projects/MetroidXPortal.png",
         "link": "https://gavin-mcg.github.io/Posts/EECS494/project1/post.html"
       },
       {
         "title": "Gluten Gunning",
         "description": "PvP clash of toast technique",
-        "image": "/portfolio/images/projects/GlutenGunning.png",
+        "image": "/images/projects/GlutenGunning.png",
         "link": "https://gavin-mcg.github.io/Posts/EECS494/project2/post.html"
       },
       {
         "title": "Way of the Cards",
         "description": "Use magic cards to conquer a Metroidvania slime dungeon",
-        "image": "/portfolio/images/projects/WayOfTheCards.png",
+        "image": "/images/projects/WayOfTheCards.png",
         "link": "https://manngup.itch.io/way-of-the-cards"
       },
       {
         "title": "Mesh Slicing tool",
         "description": "Unity tool for slicing meshes along a plane",
-        "image": "/portfolio/images/projects/MeshSlicing.png",
+        "image": "/images/projects/MeshSlicing.png",
         "link": "https://github.com/Gavin-McG/Mesh-Slicing"
       },
       {
         "title": "Walking Spider Project",
         "description": "Procedural IK animation",
-        "image": "/portfolio/images/projects/WalkingSpider.png",
+        "image": "/images/projects/WalkingSpider.png",
         "link": "https://github.com/Gavin-McG/UnityWallkingSpider"
       },
       {
         "title": "PNG Encoder/Decoder",
         "description": "Encoder and Decoder for png images, made using cpp STL only",
-        "image": "/portfolio/images/projects/pngEncoder.png",
+        "image": "/images/projects/pngEncoder.png",
         "link": "https://github.com/Gavin-McG/pngEncoder"
       }
     ]
